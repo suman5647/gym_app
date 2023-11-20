@@ -21,6 +21,7 @@ class ladningpage extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: const Text('GymCard')),
         body: const Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               backworkout(),
               Shouldercard(),
